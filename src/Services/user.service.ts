@@ -3,5 +3,5 @@ import {urls}  from "../Constants/urls"
 import {IUser} from "../Interfaces";
 
 export const UserService = {
-    allUsers: ()=> axiosService.get<IUser[]>(urls.users)
+  allUsers: ()=> axiosService.get<IUser[]>(urls.users)
 }
